@@ -1,0 +1,41 @@
+wandb_version: 1
+
+dataset:
+  desc: null
+  value: coordination_captions_gruen_strict
+model_name:
+  desc: null
+  value: blip2_in_context_same
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.16
+    cli_version: 0.15.3
+    framework: huggingface
+    huggingface_version: 4.30.0.dev0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1685695856.51196
+    t:
+      1:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 71
+      2:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 71
+      3:
+      - 16
+      - 23
+      4: 3.8.16
+      5: 0.15.3
+      6: 4.30.0.dev0
+      8:
+      - 5

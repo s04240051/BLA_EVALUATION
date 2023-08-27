@@ -1,0 +1,138 @@
+
+close file...
+
+
+
+
+
+
+Loading checkpoint shards: 100%|██████████| 6/6 [00:18<00:00,  3.03s/it]
+  0%|          | 0/613 [00:00<?, ?it/s]/home/xchen/.conda/envs/blip2022/lib/python3.8/site-packages/transformers/generation/utils.py:1349: UserWarning: Using `max_length`'s default (20) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 609/613 [03:58<00:01,  2.59it/s]
+Performance: {'cls_acc': 64.15, 'y_f1_score': 61.16, 'y_precision': 66.73, 'y_recall': 56.44, 'n_f1_score': 66.72, 'n_precision': 62.26, 'n_recall': 71.86, 'total': 2452, 'num_yes': 1037, 'num_no': 1415}
+1037
+100%|██████████| 613/613 [04:00<00:00,  2.55it/s]
+Traceback (most recent call last):
+  File "test_blip2_bla.py", line 212, in <module>
+    test_BLIP2(args)
+  File "test_blip2_bla.py", line 183, in test_BLIP2
+    data=[[model_name.split("_")[2], task_name] + list(bi_cls_results.values())]
+IndexError: list index out of range

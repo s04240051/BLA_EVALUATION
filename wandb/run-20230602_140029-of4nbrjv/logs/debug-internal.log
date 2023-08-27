@@ -1,0 +1,521 @@
+2023-06-02 14:00:29,616 INFO    StreamThr :715243 [internal.py:wandb_internal():86] W&B internal server running at pid: 715243, started at: 2023-06-02 14:00:29.615624
+2023-06-02 14:00:29,617 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status
+2023-06-02 14:00:29,621 INFO    WriterThread:715243 [datastore.py:open_for_write():85] open: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/run-of4nbrjv.wandb
+2023-06-02 14:00:29,621 DEBUG   SenderThread:715243 [sender.py:send():375] send: header
+2023-06-02 14:00:29,642 DEBUG   SenderThread:715243 [sender.py:send():375] send: run
+2023-06-02 14:00:29,952 INFO    SenderThread:715243 [dir_watcher.py:__init__():219] watching files in: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files
+2023-06-02 14:00:29,952 INFO    SenderThread:715243 [sender.py:_start_run_threads():1124] run started: of4nbrjv with start time 1685707229.619149
+2023-06-02 14:00:29,952 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 14:00:29,953 INFO    SenderThread:715243 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 14:00:29,954 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: check_version
+2023-06-02 14:00:29,954 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: check_version
+2023-06-02 14:00:30,031 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: run_start
+2023-06-02 14:00:30,035 DEBUG   HandlerThread:715243 [system_info.py:__init__():31] System info init
+2023-06-02 14:00:30,035 DEBUG   HandlerThread:715243 [system_info.py:__init__():46] System info init done
+2023-06-02 14:00:30,035 INFO    HandlerThread:715243 [system_monitor.py:start():181] Starting system monitor
+2023-06-02 14:00:30,035 INFO    SystemMonitor:715243 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-02 14:00:30,035 INFO    HandlerThread:715243 [system_monitor.py:probe():201] Collecting system info
+2023-06-02 14:00:30,036 INFO    SystemMonitor:715243 [interfaces.py:start():190] Started cpu monitoring
+2023-06-02 14:00:30,036 INFO    SystemMonitor:715243 [interfaces.py:start():190] Started disk monitoring
+2023-06-02 14:00:30,037 INFO    SystemMonitor:715243 [interfaces.py:start():190] Started gpu monitoring
+2023-06-02 14:00:30,038 INFO    SystemMonitor:715243 [interfaces.py:start():190] Started memory monitoring
+2023-06-02 14:00:30,038 INFO    SystemMonitor:715243 [interfaces.py:start():190] Started network monitoring
+2023-06-02 14:00:30,063 DEBUG   HandlerThread:715243 [system_info.py:probe():195] Probing system
+2023-06-02 14:00:30,067 DEBUG   HandlerThread:715243 [system_info.py:_probe_git():180] Probing git
+2023-06-02 14:00:30,078 DEBUG   HandlerThread:715243 [system_info.py:_probe_git():188] Probing git done
+2023-06-02 14:00:30,078 DEBUG   HandlerThread:715243 [system_info.py:probe():240] Probing system done
+2023-06-02 14:00:30,078 DEBUG   HandlerThread:715243 [system_monitor.py:probe():210] {'os': 'Linux-4.18.0-425.19.2.el8_7.x86_64-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2023-06-02T12:00:30.063526', 'startedAt': '2023-06-02T12:00:29.608071', 'docker': None, 'cuda': None, 'args': ('--in_context_learning', '--cross_dataset_example', '--file_path', '/home/xchen/datasets/BLA/original/relative_clause_captions_gruen_strict.json', '--example_file_path', '/home/xchen/datasets/BLA/original/coordination_captions_gruen_strict.json'), 'state': 'running', 'program': 'test_blip2_bla.py', 'codePath': 'test_blip2_bla.py', 'git': {'remote': 'https://github.com/salesforce/BLIP', 'commit': '3a29b7410476bf5f2ba0955827390eb6ea1f4f9d'}, 'email': '“xchen_2020@hotmail.com”', 'root': '/gpfs/home6/xchen/BLIP', 'host': 'gcn14.local.snellius.surf.nl', 'username': 'xchen', 'executable': '/home/xchen/.conda/envs/blip2022/bin/python', 'cpu_count': 72, 'cpu_count_logical': 72, 'cpu_freq': {'current': 2420.4171111111114, 'min': 800.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 3100.032, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}, {'current': 2401.0, 'min': 800.0, 'max': 2401.0}], 'disk': {'total': 251.63633346557617, 'used': 4.609325408935547}, 'gpu': 'NVIDIA A100-SXM4-40GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-40GB', 'memory_total': 42949672960}], 'memory': {'total': 503.5185241699219}}
+2023-06-02 14:00:30,078 INFO    HandlerThread:715243 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-02 14:00:30,078 INFO    HandlerThread:715243 [system_monitor.py:probe():214] Publishing system info
+2023-06-02 14:00:30,079 DEBUG   HandlerThread:715243 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-02 14:00:30,079 DEBUG   HandlerThread:715243 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-02 14:00:30,079 DEBUG   HandlerThread:715243 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-02 14:00:30,953 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_created():278] file/dir created: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/requirements.txt
+2023-06-02 14:00:30,954 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_created():278] file/dir created: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/conda-environment.yaml
+2023-06-02 14:00:30,954 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_created():278] file/dir created: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/wandb-summary.json
+2023-06-02 14:00:32,604 DEBUG   HandlerThread:715243 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-02 14:00:32,605 INFO    HandlerThread:715243 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-02 14:00:32,608 DEBUG   SenderThread:715243 [sender.py:send():375] send: files
+2023-06-02 14:00:32,608 INFO    SenderThread:715243 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-06-02 14:00:32,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:00:32,612 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:00:32,743 DEBUG   SenderThread:715243 [sender.py:send():375] send: telemetry
+2023-06-02 14:00:32,955 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/conda-environment.yaml
+2023-06-02 14:00:32,955 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_created():278] file/dir created: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:00:32,955 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_created():278] file/dir created: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/wandb-metadata.json
+2023-06-02 14:00:33,023 INFO    wandb-upload_0:715243 [upload_job.py:push():137] Uploaded file /scratch-local/xchen.2836091/tmppqqis858wandb/38qxemlq-wandb-metadata.json
+2023-06-02 14:00:34,744 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:00:34,955 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:00:39,744 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:00:44,745 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:00:47,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:00:47,612 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:00:50,739 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:00:55,739 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:00,742 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:00,959 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/config.yaml
+2023-06-02 14:01:02,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:01:02,612 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:01:06,742 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:11,743 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:16,743 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:17,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:01:17,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:01:22,727 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:27,727 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:30,038 DEBUG   SystemMonitor:715243 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-02 14:01:30,039 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:01:32,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:01:32,612 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:01:33,724 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:38,724 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:43,725 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:47,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:01:47,612 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:01:48,726 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:53,726 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:01:58,727 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:00,040 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:02:02,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:02:02,612 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:02:03,731 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:08,731 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:13,731 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:17,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:02:17,612 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:02:19,729 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:24,729 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:29,729 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:30,041 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:02:32,612 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:02:32,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:02:34,736 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:39,736 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:44,737 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:47,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:02:47,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:02:50,736 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:02:55,736 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:00,042 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:03:01,042 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:02,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:03:02,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:03:06,735 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:11,736 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:16,736 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:17,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:03:17,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:03:22,734 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:27,734 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:30,042 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:03:32,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:03:32,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:03:32,738 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:37,738 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:42,739 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:47,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:03:47,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:03:48,725 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:53,726 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:03:58,726 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:00,043 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:04:02,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:04:02,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:04:03,735 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:08,736 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:13,736 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:17,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:04:17,613 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:04:19,726 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:22,992 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:24,992 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:25,589 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:28,993 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:30,044 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:04:31,045 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:32,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:04:32,614 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:04:32,998 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:34,999 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:36,551 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:39,000 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:42,048 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:43,000 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:45,001 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:47,001 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:47,337 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:47,614 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:04:47,614 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:04:49,001 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:51,002 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:52,729 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:53,002 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:55,002 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:57,003 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:04:58,032 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:04:59,003 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:00,045 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:05:01,003 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:02,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:05:02,624 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:05:03,004 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:03,130 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:05,004 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:07,004 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:08,260 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:09,005 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:11,005 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:13,005 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:13,384 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:15,006 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:17,006 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:17,614 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:05:17,614 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:05:18,498 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:19,006 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:21,007 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:23,007 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:23,619 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:25,007 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:27,008 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:28,746 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:29,008 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:30,046 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:05:31,008 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:32,613 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:05:32,624 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:05:33,009 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:33,896 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:35,009 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:37,009 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:39,010 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:39,033 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:41,010 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:43,010 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:44,156 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:45,010 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:47,011 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:47,624 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:05:47,625 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:05:49,011 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:49,335 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:51,011 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:53,012 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:54,450 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:05:55,012 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:57,012 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:59,013 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:05:59,586 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:00,046 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:06:01,013 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:02,624 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:06:02,625 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:06:03,013 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:04,746 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:05,014 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:07,014 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:09,014 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:09,839 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:11,015 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:13,015 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:14,992 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:15,015 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:17,016 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:17,614 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:06:17,614 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:06:19,016 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:20,167 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:21,016 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:23,017 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:25,017 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:25,234 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:27,017 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:29,017 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:30,047 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:06:30,388 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:31,018 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:32,614 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:06:32,614 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:06:33,018 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:35,018 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:35,539 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:37,019 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:39,019 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:40,743 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:41,019 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:43,020 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:45,020 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:45,869 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:47,020 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:47,624 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:06:47,624 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:06:49,021 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:50,959 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:51,021 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:53,021 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:55,022 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:56,102 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:06:57,022 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:06:59,022 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:00,048 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:07:01,022 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:01,212 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:02,614 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:07:02,614 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:07:03,023 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:05,023 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:06,351 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:07,023 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:09,024 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:11,024 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:11,443 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:13,024 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:15,025 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:16,830 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:17,025 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:17,615 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:07:17,616 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:07:19,025 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:21,026 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:21,951 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:23,026 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:25,026 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:27,024 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:27,027 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:29,027 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:30,048 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:07:31,027 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:32,092 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:32,631 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:07:32,631 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:07:33,027 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:35,028 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:37,028 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:37,222 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:39,028 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:41,029 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:42,348 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:43,029 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:45,029 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:47,030 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:47,432 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:47,627 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:07:47,628 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:07:49,030 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:51,030 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:52,539 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:53,031 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:55,031 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:57,031 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:07:57,643 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:07:59,032 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:00,060 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:08:01,032 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:02,659 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:08:02,660 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:08:02,660 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:03,032 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:05,033 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:07,033 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:07,909 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:09,033 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:11,034 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:13,034 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:13,040 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:15,034 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:17,034 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:17,650 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:08:17,650 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:08:18,161 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:19,035 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:21,035 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:23,036 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:23,297 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:25,036 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:27,036 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:28,395 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:29,036 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:30,050 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:08:31,037 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:32,654 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:08:32,655 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:08:33,037 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:33,492 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:35,038 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:37,038 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:38,566 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:39,038 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:41,039 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:43,039 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:43,657 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:45,039 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:47,040 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:47,655 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:08:47,656 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:08:48,755 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:49,040 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:51,040 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:53,040 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:53,838 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:55,041 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:57,041 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:08:58,915 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:08:59,041 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:00,050 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:09:01,042 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:02,667 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-02 14:09:02,668 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: stop_status
+2023-06-02 14:09:03,042 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:04,108 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:09:05,043 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:07,043 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:08,925 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: log_artifact
+2023-06-02 14:09:08,925 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: log_artifact
+2023-06-02 14:09:09,043 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:09,043 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_created():278] file/dir created: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/media/table/blip2_results_0_c9b96c567b4e09b7cd49.table.json
+2023-06-02 14:09:09,044 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_created():278] file/dir created: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/media/table
+2023-06-02 14:09:09,044 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_created():278] file/dir created: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/media
+2023-06-02 14:09:09,170 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-02 14:09:09,453 INFO    wandb-upload_0:715243 [upload_job.py:push():137] Uploaded file /scratch-local/xchen.2836091/tmppqqis858wandb/89ryveit-media/table/blip2_results_0_c9b96c567b4e09b7cd49.table.json
+2023-06-02 14:09:09,952 INFO    wandb-upload_0:715243 [upload_job.py:push():95] Uploaded file /home/xchen/.local/share/wandb/artifacts/staging/tmpfbnru5xz
+2023-06-02 14:09:10,190 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-02 14:09:10,628 INFO    SenderThread:715243 [sender.py:send_request_log_artifact():1438] logged artifact run-of4nbrjv-blip2_results - {'id': 'QXJ0aWZhY3Q6NDc1MDkyMDk5', 'digest': '81d85a7188af745630edcb64a5ef9c94', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNzA4Njgy', 'latestArtifact': None}, 'version': 'latest'}
+2023-06-02 14:09:10,628 DEBUG   SenderThread:715243 [sender.py:send():375] send: files
+2023-06-02 14:09:10,628 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:09:10,628 INFO    SenderThread:715243 [sender.py:_save_file():1378] saving file media/table/blip2_results_0_c9b96c567b4e09b7cd49.table.json with policy now
+2023-06-02 14:09:10,628 DEBUG   SenderThread:715243 [sender.py:send():375] send: history
+2023-06-02 14:09:10,628 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: summary_record
+2023-06-02 14:09:10,629 INFO    SenderThread:715243 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 14:09:10,629 DEBUG   SenderThread:715243 [sender.py:send():375] send: exit
+2023-06-02 14:09:10,629 INFO    SenderThread:715243 [sender.py:send_exit():598] handling exit code: 0
+2023-06-02 14:09:10,629 INFO    SenderThread:715243 [sender.py:send_exit():600] handling runtime: 519
+2023-06-02 14:09:10,629 INFO    SenderThread:715243 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 14:09:10,631 INFO    SenderThread:715243 [sender.py:send_exit():606] send defer
+2023-06-02 14:09:10,631 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: poll_exit
+2023-06-02 14:09:10,631 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:10,631 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-02 14:09:10,632 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:10,632 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-06-02 14:09:10,632 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 1
+2023-06-02 14:09:10,632 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:10,632 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-02 14:09:10,632 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:10,632 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-06-02 14:09:10,632 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 2
+2023-06-02 14:09:10,632 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:10,632 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-02 14:09:10,632 INFO    HandlerThread:715243 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-02 14:09:10,632 DEBUG   SystemMonitor:715243 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-02 14:09:10,633 INFO    HandlerThread:715243 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-02 14:09:10,633 DEBUG   SystemMonitor:715243 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-02 14:09:10,633 INFO    HandlerThread:715243 [interfaces.py:finish():202] Joined disk monitor
+2023-06-02 14:09:10,693 INFO    HandlerThread:715243 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-02 14:09:10,693 INFO    HandlerThread:715243 [interfaces.py:finish():202] Joined memory monitor
+2023-06-02 14:09:10,693 INFO    HandlerThread:715243 [interfaces.py:finish():202] Joined network monitor
+2023-06-02 14:09:10,693 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:10,693 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-06-02 14:09:10,693 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 3
+2023-06-02 14:09:10,693 DEBUG   SenderThread:715243 [sender.py:send():375] send: stats
+2023-06-02 14:09:10,693 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:10,694 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-02 14:09:10,694 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:10,694 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-06-02 14:09:10,694 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 4
+2023-06-02 14:09:10,694 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:10,694 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-02 14:09:10,694 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:10,694 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-06-02 14:09:10,694 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 5
+2023-06-02 14:09:10,694 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:10,694 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-02 14:09:10,695 DEBUG   SenderThread:715243 [sender.py:send():375] send: summary
+2023-06-02 14:09:10,695 INFO    SenderThread:715243 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-02 14:09:10,695 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:10,695 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-06-02 14:09:10,695 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 6
+2023-06-02 14:09:10,695 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:10,695 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-02 14:09:10,695 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:10,695 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-06-02 14:09:10,696 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 7
+2023-06-02 14:09:10,696 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: status_report
+2023-06-02 14:09:10,696 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:10,696 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-02 14:09:10,696 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:10,696 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-06-02 14:09:11,044 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/wandb-summary.json
+2023-06-02 14:09:11,081 INFO    wandb-upload_0:715243 [upload_job.py:push():137] Uploaded file /scratch-local/xchen.2836091/tmppqqis858wandb/1v1n9xi2-media/table/blip2_results_0_c9b96c567b4e09b7cd49.table.json
+2023-06-02 14:09:11,191 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-02 14:09:12,044 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:13,016 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 8
+2023-06-02 14:09:13,016 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: poll_exit
+2023-06-02 14:09:13,016 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:13,016 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-02 14:09:13,016 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:13,016 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-06-02 14:09:13,022 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 9
+2023-06-02 14:09:13,022 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:13,022 DEBUG   SenderThread:715243 [sender.py:send():375] send: artifact
+2023-06-02 14:09:13,022 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-02 14:09:13,044 INFO    Thread-12 :715243 [dir_watcher.py:_on_file_modified():295] file/dir modified: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:13,581 INFO    SenderThread:715243 [sender.py:send_artifact():1474] sent artifact job-https___github.com_salesforce_BLIP_test_blip2_bla.py - {'id': 'QXJ0aWZhY3Q6NDc0OTU5MDAy', 'digest': 'd94971e1f9d001caba7a7878efbba467', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_salesforce_BLIP_test_blip2_bla.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_salesforce_BLIP_test_blip2_bla.py', 'alias': 'v3'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjczNTE0MjQ4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDc0OTU5MDAy', 'versionIndex': 3}}, 'version': 'v3'}
+2023-06-02 14:09:13,581 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:13,581 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-06-02 14:09:13,581 INFO    SenderThread:715243 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-02 14:09:14,045 INFO    SenderThread:715243 [dir_watcher.py:finish():395] scan: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files
+2023-06-02 14:09:14,045 INFO    SenderThread:715243 [dir_watcher.py:finish():409] scan save: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/conda-environment.yaml conda-environment.yaml
+2023-06-02 14:09:14,045 INFO    SenderThread:715243 [dir_watcher.py:finish():409] scan save: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/wandb-metadata.json wandb-metadata.json
+2023-06-02 14:09:14,047 INFO    SenderThread:715243 [dir_watcher.py:finish():409] scan save: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/config.yaml config.yaml
+2023-06-02 14:09:14,047 INFO    SenderThread:715243 [dir_watcher.py:finish():409] scan save: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/requirements.txt requirements.txt
+2023-06-02 14:09:14,049 INFO    SenderThread:715243 [dir_watcher.py:finish():409] scan save: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/wandb-summary.json wandb-summary.json
+2023-06-02 14:09:14,051 INFO    SenderThread:715243 [dir_watcher.py:finish():409] scan save: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log output.log
+2023-06-02 14:09:14,055 INFO    SenderThread:715243 [dir_watcher.py:finish():409] scan save: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/media/table/blip2_results_0_c9b96c567b4e09b7cd49.table.json media/table/blip2_results_0_c9b96c567b4e09b7cd49.table.json
+2023-06-02 14:09:14,056 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 10
+2023-06-02 14:09:14,056 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:14,056 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-02 14:09:14,056 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:14,056 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-06-02 14:09:14,056 INFO    SenderThread:715243 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-02 14:09:14,438 INFO    wandb-upload_2:715243 [upload_job.py:push():137] Uploaded file /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/requirements.txt
+2023-06-02 14:09:14,476 INFO    wandb-upload_0:715243 [upload_job.py:push():137] Uploaded file /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/conda-environment.yaml
+2023-06-02 14:09:14,483 INFO    wandb-upload_1:715243 [upload_job.py:push():137] Uploaded file /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/config.yaml
+2023-06-02 14:09:14,484 INFO    wandb-upload_3:715243 [upload_job.py:push():137] Uploaded file /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/wandb-summary.json
+2023-06-02 14:09:14,493 INFO    wandb-upload_4:715243 [upload_job.py:push():137] Uploaded file /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/files/output.log
+2023-06-02 14:09:14,693 INFO    Thread-11 :715243 [sender.py:transition_state():626] send defer: 11
+2023-06-02 14:09:14,693 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:14,693 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-02 14:09:14,693 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:14,693 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-06-02 14:09:14,693 INFO    SenderThread:715243 [file_pusher.py:join():172] waiting for file pusher
+2023-06-02 14:09:14,693 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 12
+2023-06-02 14:09:14,694 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:14,694 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-02 14:09:14,694 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:14,694 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-06-02 14:09:15,141 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 13
+2023-06-02 14:09:15,141 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:15,141 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-02 14:09:15,141 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:15,141 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-06-02 14:09:15,141 INFO    SenderThread:715243 [sender.py:transition_state():626] send defer: 14
+2023-06-02 14:09:15,142 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: defer
+2023-06-02 14:09:15,142 DEBUG   SenderThread:715243 [sender.py:send():375] send: final
+2023-06-02 14:09:15,142 INFO    HandlerThread:715243 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-02 14:09:15,142 DEBUG   SenderThread:715243 [sender.py:send():375] send: footer
+2023-06-02 14:09:15,142 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: defer
+2023-06-02 14:09:15,142 INFO    SenderThread:715243 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-06-02 14:09:15,142 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-02 14:09:15,142 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: poll_exit
+2023-06-02 14:09:15,142 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: server_info
+2023-06-02 14:09:15,143 DEBUG   SenderThread:715243 [sender.py:send_request():402] send_request: server_info
+2023-06-02 14:09:15,144 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-02 14:09:15,144 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-02 14:09:15,254 INFO    MainThread:715243 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-02 14:09:15,254 INFO    MainThread:715243 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-02 14:09:15,255 INFO    MainThread:715243 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-06-02 14:09:15,255 DEBUG   HandlerThread:715243 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-02 14:09:15,255 INFO    HandlerThread:715243 [handler.py:finish():842] shutting down handler
+2023-06-02 14:09:16,143 INFO    WriterThread:715243 [datastore.py:close():298] close: /gpfs/home6/xchen/BLIP/wandb/run-20230602_140029-of4nbrjv/run-of4nbrjv.wandb
+2023-06-02 14:09:16,254 INFO    SenderThread:715243 [sender.py:finish():1550] shutting down sender
+2023-06-02 14:09:16,254 INFO    SenderThread:715243 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-02 14:09:16,254 INFO    SenderThread:715243 [file_pusher.py:join():172] waiting for file pusher

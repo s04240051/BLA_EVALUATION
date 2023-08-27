@@ -1,0 +1,1 @@
+{"columns": ["model", "dataset", "cls_acc", "y_f1_score", "y_precision", "y_recall", "n_f1_score", "n_precision", "n_recall", "total", "num_yes", "num_no"], "data": [["context", "ctrl_coord_tasks", 58.91, 70.76, 54.92, 99.44, 30.92, 97.02, 18.39, 2480, 2245, 235]]}

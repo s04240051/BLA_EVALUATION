@@ -1,0 +1,57 @@
+
+close file...
+
+
+
+
+
+Loading checkpoint shards: 100%|██████████| 6/6 [00:18<00:00,  3.10s/it]
+  0%|          | 0/200 [00:00<?, ?it/s]/home/xchen/.conda/envs/blip2022/lib/python3.8/site-packages/transformers/generation/utils.py:1349: UserWarning: Using `max_length`'s default (20) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|█████████▉| 198/200 [01:28<00:00,  2.31it/s]
+Performance: {'cls_acc': 59.0, 'cls_y_f1_score': 70.82, 'cls_y_precision': 54.97, 'cls_y_recall': 99.5, 'cls_n_f1_score': 31.09, 'cls_n_precision': 97.37, 'cls_n_recall': 18.5, 'cls_total': 800, 'cls_num_yes': 724, 'cls_num_no': 76}
+724
+
+100%|██████████| 200/200 [01:29<00:00,  2.25it/s]

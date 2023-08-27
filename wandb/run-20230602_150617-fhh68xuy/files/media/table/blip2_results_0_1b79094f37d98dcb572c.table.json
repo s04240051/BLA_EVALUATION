@@ -1,0 +1,1 @@
+{"columns": ["model", "dataset", "cls_acc", "y_f1_score", "y_precision", "y_recall", "n_f1_score", "n_precision", "n_recall", "total", "num_yes", "num_no"], "data": [["blip2_in_context_same", "ctrl_coord_tasks", 60.08, 71.22, 55.68, 98.79, 34.87, 94.64, 21.37, 2480, 2200, 280]]}
