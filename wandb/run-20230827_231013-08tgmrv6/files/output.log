@@ -1,0 +1,9 @@
+
+close file...
+  0%|          | 0/200 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/hzhu/project/EMNLP_BLA/BLIP/test_blip2_bla.py", line 371, in <module>
+    evaluate_vqa(args)
+  File "/home/hzhu/project/EMNLP_BLA/BLIP/test_blip2_bla.py", line 130, in evaluate_vqa
+    prompt = eval_model.prompt_question(captions[type])
+AttributeError: 'FLAMINGO_CONTAINER' object has no attribute 'prompt_question'

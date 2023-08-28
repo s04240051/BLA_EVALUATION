@@ -3,8 +3,9 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=18
 #SBATCH --gpus=1
+#SBATCH --mem=50G
 #SBATCH --partition=gpu
-#SBATCH --time=01:00:00
+#SBATCH --time=20:00:00
 #SBATCH --output=blip2_prompt_test.out
 
 module load 2022
@@ -20,4 +21,4 @@ echo "Active Passive"
 # python test_blip2_bla.py --file_path /home/xchen/datasets/BLA/original/finetune/finetune_random/coord/test.json
 
 echo "Relative Clause"
-python test_blip2_bla.py --file_path /home/hzhu/project/EMNLP_BLA/BLIP/datasets/BLA/original/finetune/finetune_random/rc/test.json
+python test_blip2_bla.py --file_path /home/hzhu/project/EMNLP_BLA/datasets/BLA/original/finetune/finetune_random/rc/test.json

@@ -1,0 +1,1 @@
+{"columns": ["model", "dataset", "cls_acc", "cls_y_f1_score", "cls_y_precision", "cls_y_recall", "cls_n_f1_score", "cls_n_precision", "cls_n_recall", "cls_total", "cls_num_yes", "cls_num_no"], "data": [["FLAMINGO_prompt", "ctrl_coord_tasks", 50.15, 58.68, 50.11, 70.8, 37.19, 50.26, 29.51, 2616, 1848, 768]]}

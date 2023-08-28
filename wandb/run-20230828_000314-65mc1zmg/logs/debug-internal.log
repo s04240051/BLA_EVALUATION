@@ -1,0 +1,173 @@
+2023-08-28 00:03:15,014 INFO    StreamThr :28056 [internal.py:wandb_internal():86] W&B internal server running at pid: 28056, started at: 2023-08-28 00:03:15.012751
+2023-08-28 00:03:15,016 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status
+2023-08-28 00:03:15,022 INFO    WriterThread:28056 [datastore.py:open_for_write():85] open: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/run-65mc1zmg.wandb
+2023-08-28 00:03:15,024 DEBUG   SenderThread:28056 [sender.py:send():379] send: header
+2023-08-28 00:03:15,113 DEBUG   SenderThread:28056 [sender.py:send():379] send: run
+2023-08-28 00:03:15,504 INFO    SenderThread:28056 [dir_watcher.py:__init__():211] watching files in: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files
+2023-08-28 00:03:15,504 INFO    SenderThread:28056 [sender.py:_start_run_threads():1121] run started: 65mc1zmg with start time 1693173795.016416
+2023-08-28 00:03:15,504 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: summary_record
+2023-08-28 00:03:15,507 INFO    SenderThread:28056 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-28 00:03:15,509 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: check_version
+2023-08-28 00:03:15,509 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: check_version
+2023-08-28 00:03:15,573 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: run_start
+2023-08-28 00:03:15,578 DEBUG   HandlerThread:28056 [system_info.py:__init__():31] System info init
+2023-08-28 00:03:15,578 DEBUG   HandlerThread:28056 [system_info.py:__init__():46] System info init done
+2023-08-28 00:03:15,578 INFO    HandlerThread:28056 [system_monitor.py:start():181] Starting system monitor
+2023-08-28 00:03:15,579 INFO    SystemMonitor:28056 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-28 00:03:15,580 INFO    HandlerThread:28056 [system_monitor.py:probe():201] Collecting system info
+2023-08-28 00:03:15,580 INFO    SystemMonitor:28056 [interfaces.py:start():190] Started cpu monitoring
+2023-08-28 00:03:15,582 INFO    SystemMonitor:28056 [interfaces.py:start():190] Started disk monitoring
+2023-08-28 00:03:15,583 INFO    SystemMonitor:28056 [interfaces.py:start():190] Started gpu monitoring
+2023-08-28 00:03:15,583 INFO    SystemMonitor:28056 [interfaces.py:start():190] Started memory monitoring
+2023-08-28 00:03:15,584 INFO    SystemMonitor:28056 [interfaces.py:start():190] Started network monitoring
+2023-08-28 00:03:15,617 DEBUG   HandlerThread:28056 [system_info.py:probe():195] Probing system
+2023-08-28 00:03:15,626 DEBUG   HandlerThread:28056 [system_info.py:_probe_git():180] Probing git
+2023-08-28 00:03:15,645 DEBUG   HandlerThread:28056 [system_info.py:_probe_git():188] Probing git done
+2023-08-28 00:03:15,645 DEBUG   HandlerThread:28056 [system_info.py:probe():240] Probing system done
+2023-08-28 00:03:15,645 DEBUG   HandlerThread:28056 [system_monitor.py:probe():210] {'os': 'Linux-5.7.8-1.el7.elrepo.x86_64-x86_64-with-glibc2.17', 'python': '3.9.17', 'heartbeatAt': '2023-08-27T22:03:15.617168', 'startedAt': '2023-08-27T22:03:14.988724', 'docker': None, 'cuda': '10.2.89', 'args': ('--file_path', '/home/hzhu/project/EMNLP_BLA/datasets/BLA/original/finetune/finetune_random/rc/test.json'), 'state': 'running', 'program': '/home/hzhu/project/EMNLP_BLA/BLIP/test_blip2_bla.py', 'codePath': 'test_blip2_bla.py', 'git': {'remote': 'https://github.com/s04240051/BLA_EVALUATION.git', 'commit': '1a542c70735bbb4244e433f6408bf76114543631'}, 'email': None, 'root': '/home/hzhu/project/EMNLP_BLA/BLIP', 'host': 'ilps-cn101.ivi-ilps.local', 'username': 'hzhu', 'executable': '/home/hzhu/miniconda3/envs/openflamingo/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1753.6054375, 'min': 1200.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 3174.266, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.098, 'min': 1200.0, 'max': 3200.0}, {'current': 1750.353, 'min': 1200.0, 'max': 3200.0}, {'current': 1900.264, 'min': 1200.0, 'max': 3200.0}, {'current': 2801.209, 'min': 1200.0, 'max': 3200.0}, {'current': 1828.436, 'min': 1200.0, 'max': 3200.0}, {'current': 2401.944, 'min': 1200.0, 'max': 3200.0}, {'current': 2829.726, 'min': 1200.0, 'max': 3200.0}, {'current': 1599.909, 'min': 1200.0, 'max': 3200.0}, {'current': 1489.112, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.433, 'min': 1200.0, 'max': 3200.0}, {'current': 1201.339, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.941, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.255, 'min': 1200.0, 'max': 3200.0}, {'current': 1201.176, 'min': 1200.0, 'max': 3200.0}, {'current': 1201.147, 'min': 1200.0, 'max': 3200.0}, {'current': 3173.767, 'min': 1200.0, 'max': 3200.0}, {'current': 1204.242, 'min': 1200.0, 'max': 3200.0}, {'current': 1754.069, 'min': 1200.0, 'max': 3200.0}, {'current': 1719.86, 'min': 1200.0, 'max': 3200.0}, {'current': 2789.118, 'min': 1200.0, 'max': 3200.0}, {'current': 1671.078, 'min': 1200.0, 'max': 3200.0}, {'current': 2407.456, 'min': 1200.0, 'max': 3200.0}, {'current': 2748.548, 'min': 1200.0, 'max': 3200.0}, {'current': 1599.978, 'min': 1200.0, 'max': 3200.0}, {'current': 1293.347, 'min': 1200.0, 'max': 3200.0}, {'current': 1203.283, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.689, 'min': 1200.0, 'max': 3200.0}, {'current': 1201.675, 'min': 1200.0, 'max': 3200.0}, {'current': 1203.404, 'min': 1200.0, 'max': 3200.0}, {'current': 1202.06, 'min': 1200.0, 'max': 3200.0}, {'current': 1203.681, 'min': 1200.0, 'max': 3200.0}], 'disk': {'total': 43.92385482788086, 'used': 24.983795166015625}, 'memory': {'total': 251.79969024658203}}
+2023-08-28 00:03:15,646 INFO    HandlerThread:28056 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-28 00:03:15,646 INFO    HandlerThread:28056 [system_monitor.py:probe():214] Publishing system info
+2023-08-28 00:03:15,646 DEBUG   HandlerThread:28056 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-28 00:03:15,649 DEBUG   HandlerThread:28056 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-28 00:03:15,649 DEBUG   HandlerThread:28056 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-28 00:03:16,508 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/wandb-summary.json
+2023-08-28 00:03:16,509 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/conda-environment.yaml
+2023-08-28 00:03:16,509 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/requirements.txt
+2023-08-28 00:03:20,677 DEBUG   HandlerThread:28056 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-28 00:03:20,682 INFO    HandlerThread:28056 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-28 00:03:20,691 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:03:20,691 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-28 00:03:20,692 DEBUG   SenderThread:28056 [sender.py:send():379] send: files
+2023-08-28 00:03:20,692 INFO    SenderThread:28056 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-28 00:03:20,701 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:03:20,701 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:03:20,870 DEBUG   SenderThread:28056 [sender.py:send():379] send: telemetry
+2023-08-28 00:03:21,239 INFO    wandb-upload_0:28056 [upload_job.py:push():131] Uploaded file /tmp/tmp2_sgxjsbwandb/9mkimztv-wandb-metadata.json
+2023-08-28 00:03:21,514 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/conda-environment.yaml
+2023-08-28 00:03:21,514 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/wandb-metadata.json
+2023-08-28 00:03:21,515 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:03:23,518 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:03:25,521 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:03:25,947 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:03:30,948 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:03:33,529 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:03:35,701 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:03:35,702 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:03:36,883 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:03:39,536 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:03:42,774 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:03:45,544 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:03:47,827 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:03:48,547 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/config.yaml
+2023-08-28 00:03:50,701 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:03:50,702 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:03:51,551 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:03:53,122 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:03:53,554 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:03:58,124 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:03:59,561 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:03,211 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:05,568 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:05,701 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:04:05,702 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:04:08,894 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:13,577 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:14,635 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:15,585 DEBUG   SystemMonitor:28056 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-28 00:04:15,586 DEBUG   SenderThread:28056 [sender.py:send():379] send: stats
+2023-08-28 00:04:17,582 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:19,586 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:20,042 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:20,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:04:20,704 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:04:25,593 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:25,881 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:30,918 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:31,602 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:35,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:04:35,703 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:04:36,891 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:37,610 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:41,617 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:42,340 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:43,621 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:45,587 DEBUG   SenderThread:28056 [sender.py:send():379] send: stats
+2023-08-28 00:04:48,097 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:49,631 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:50,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:04:50,703 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:04:54,037 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:04:55,640 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:59,646 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:04:59,862 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:03,652 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:05,434 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:05,656 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:05,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:05:05,703 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:05:11,415 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:11,663 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:15,588 DEBUG   SenderThread:28056 [sender.py:send():379] send: stats
+2023-08-28 00:05:16,984 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:17,673 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:20,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:05:20,703 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:05:22,132 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:23,681 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:27,470 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:27,688 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:29,692 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:33,077 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:35,701 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:35,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:05:35,703 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:05:38,849 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:41,710 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:44,571 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:45,589 DEBUG   SenderThread:28056 [sender.py:send():379] send: stats
+2023-08-28 00:05:47,718 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:49,640 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:50,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:05:50,703 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:05:51,723 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:53,727 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:05:55,464 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:05:59,738 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:01,167 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:03,745 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:05,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:06:05,702 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:06:06,846 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:09,753 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:12,567 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:13,759 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:15,590 DEBUG   SenderThread:28056 [sender.py:send():379] send: stats
+2023-08-28 00:06:15,763 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:17,591 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:20,702 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:06:20,703 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:06:21,772 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:22,907 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:27,781 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:28,383 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:34,211 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:35,703 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:06:35,704 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:06:35,791 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:39,798 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:40,132 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:41,802 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:45,591 DEBUG   SenderThread:28056 [sender.py:send():379] send: stats
+2023-08-28 00:06:45,592 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:45,808 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:50,594 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:06:50,703 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:06:50,703 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:06:53,818 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log
+2023-08-28 00:06:55,629 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:07:00,630 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:07:05,631 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:07:05,717 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 00:07:05,718 DEBUG   SenderThread:28056 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 00:07:11,461 DEBUG   HandlerThread:28056 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 00:07:11,835 INFO    Thread-12 :28056 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_000314-65mc1zmg/files/output.log

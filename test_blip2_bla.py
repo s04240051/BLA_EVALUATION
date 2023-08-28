@@ -119,18 +119,18 @@ def evaluate_vqa(args):
                                                         captions[type])
                     
                 else:
-                    prompt = in_concext_learning_prompt(captions["True1"], 
+                    prompt = eval_model.in_context_learning_prompt(captions["True1"], 
                                                     captions["False1"], 
                                                     captions[type]) if i % 2 == 0\
-                            else in_concext_learning_prompt(captions["True2"], 
+                            else eval_model.in_context_learning_prompt(captions["True2"], 
                                                         captions["False2"], 
                                                         captions[type])
-              
+                    vision_x = eval_model.image_encoder([img_path])
             else:
                 prompt = eval_model.prompt_question(captions[type])
-                vision_x = eval_model([img_path])
+                vision_x = eval_model.image_encoder([img_path])
             
-            out = eval_model.get_outputs(prompt, vision_x)
+            result = eval_model.get_outputs(prompt, vision_x)
             
             
             if result[-1] == ".":
@@ -242,7 +242,7 @@ def test_BLIP2(args):
     
     TP, FP, TN, FN = 0, 0, 0, 0
     
-    for item in tqdm(items):
+    for item in tqdm(items[:5]):
         image_id = item['image_id']
         captions = item['caption_group'][0]
         

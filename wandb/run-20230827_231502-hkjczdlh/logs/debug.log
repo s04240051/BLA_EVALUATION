@@ -1,0 +1,27 @@
+2023-08-27 23:15:02,088 INFO    MainThread:24460 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-27 23:15:02,088 INFO    MainThread:24460 [wandb_setup.py:_flush():76] Configure stats pid to 24460
+2023-08-27 23:15:02,088 INFO    MainThread:24460 [wandb_setup.py:_flush():76] Loading settings from /home/hzhu/.config/wandb/settings
+2023-08-27 23:15:02,088 INFO    MainThread:24460 [wandb_setup.py:_flush():76] Loading settings from /home/hzhu/project/EMNLP_BLA/BLIP/wandb/settings
+2023-08-27 23:15:02,088 INFO    MainThread:24460 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-27 23:15:02,088 INFO    MainThread:24460 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-27 23:15:02,089 INFO    MainThread:24460 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test_blip2_bla.py', 'program': '/home/hzhu/project/EMNLP_BLA/BLIP/test_blip2_bla.py'}
+2023-08-27 23:15:02,089 INFO    MainThread:24460 [wandb_init.py:_log_setup():507] Logging user logs to /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230827_231502-hkjczdlh/logs/debug.log
+2023-08-27 23:15:02,089 INFO    MainThread:24460 [wandb_init.py:_log_setup():508] Logging internal logs to /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230827_231502-hkjczdlh/logs/debug-internal.log
+2023-08-27 23:15:02,089 INFO    MainThread:24460 [wandb_init.py:init():547] calling init triggers
+2023-08-27 23:15:02,089 INFO    MainThread:24460 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'dataset': 'rc', 'model_name': 'FLAMINGO_prompt'}
+2023-08-27 23:15:02,089 INFO    MainThread:24460 [wandb_init.py:init():596] starting backend
+2023-08-27 23:15:02,089 INFO    MainThread:24460 [wandb_init.py:init():600] setting up manager
+2023-08-27 23:15:02,092 INFO    MainThread:24460 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-27 23:15:02,097 INFO    MainThread:24460 [wandb_init.py:init():606] backend started and connected
+2023-08-27 23:15:02,104 INFO    MainThread:24460 [wandb_init.py:init():697] updated telemetry
+2023-08-27 23:15:02,193 INFO    MainThread:24460 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-27 23:15:02,642 INFO    MainThread:24460 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-27 23:15:02,705 INFO    MainThread:24460 [wandb_run.py:_on_init():2189] got version response 
+2023-08-27 23:15:02,705 INFO    MainThread:24460 [wandb_init.py:init():781] starting run threads in backend
+2023-08-27 23:15:07,964 INFO    MainThread:24460 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-27 23:15:07,965 INFO    MainThread:24460 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-27 23:15:07,965 INFO    MainThread:24460 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-27 23:15:07,965 INFO    MainThread:24460 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-27 23:15:07,966 INFO    MainThread:24460 [wandb_init.py:init():822] run started, returning control to user process
+2023-08-27 23:15:15,731 WARNING MsgRouterThr:24460 [router.py:message_loop():77] message_loop has been closed

@@ -1,5 +1,6 @@
 from PIL import Image
 import torch
+import random
 import os
 
 
@@ -29,7 +30,8 @@ class FLAMINGO_CONTAINER:
             "openflamingo/OpenFlamingo-4B-vitl-rpj3b-langinstruct", 
             "checkpoint.pt",
         )
-        self.device = args.device
+        self.args = args
+        self.device = self.args.device
         self.model.load_state_dict(torch.load(checkpoint_path), strict=False)
         self.model.to(self.device)
         self.model.eval()
@@ -41,9 +43,41 @@ class FLAMINGO_CONTAINER:
             for img_path in image_list
         ]
         vision_x = [self.image_processor(img).unsqueeze(0) for img in image_list]
+        vision_x = torch.cat(vision_x, dim=0)
         vision_x = vision_x.unsqueeze(1).unsqueeze(0)
+        return vision_x
     
-    def flamingo_prompt_question(self, caption, answer=None):
+    def in_context_learning_prompt(self, true_exp, false_exp, caption):
+        template = "Question: {} Short answer: {}"
+        question = "Is the sentence {} appropriate for this image?"
+        
+        # Randomly shuffle the true and false example order
+        if random.random() > 0.5:
+            context = [
+                (question.format(true_exp), "yes."),
+                (question.format(false_exp), "no."),
+                (question.format(caption), "")
+            ]
+            
+        else:
+            context = [
+                (question.format(false_exp), "no."),
+                (question.format(true_exp), "yes."),
+                (question.format(caption), "")
+            ]
+            
+        text =  " ".join(
+            [
+                template.format(
+                    context[i][0], context[i][1]
+                )
+                +"\n" 
+                for i in range(len(context))
+            ]
+        )
+        return "<image>" + text
+    
+    def prompt_question(self, caption, answer=None):
         return f"<image>Question: Is the sentence {caption} appropriate for this image? yes or no? \
             Short answer:{'<|endofchunk|>' if answer is not None else ''}"
 
@@ -61,8 +95,12 @@ class FLAMINGO_CONTAINER:
             lang_x=input_ids,
             attention_mask=encodes["attention_mask"],
             max_new_tokens=2000,
-            num_beams=3,
+            num_beams=2,
         )
         outputs = outputs[:, len(input_ids[0]):]
         
-        return self.tokenizer.batch_decode(outputs, skip_special_tokens=True).lower().strip(". ")
+        return (
+            self.tokenizer.batch_decode(outputs, skip_special_tokens=True)[0].split(" ")[-1].strip(". ").lower()
+            if self.args.in_context_learning else 
+            self.tokenizer.batch_decode(outputs, skip_special_tokens=True)[0].strip(". ").lower()
+        )

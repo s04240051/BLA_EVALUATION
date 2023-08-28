@@ -1,0 +1,30 @@
+
+close file...
+
+  0%|          | 0/5 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+ 20%|██        | 1/5 [00:30<02:01, 30.47s/it]Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+
+ 40%|████      | 2/5 [00:59<01:28, 29.47s/it]Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+
+ 60%|██████    | 3/5 [01:24<00:54, 27.35s/it]Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+
+ 80%|████████  | 4/5 [01:48<00:26, 26.06s/it]Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50277 for open-end generation.
+Performance: {'cls_acc': 55.0, 'cls_y_f1_score': 52.63, 'cls_y_precision': 55.56, 'cls_y_recall': 50.0, 'cls_n_f1_score': 57.14, 'cls_n_precision': 54.55, 'cls_n_recall': 60.0, 'cls_total': 20, 'cls_num_yes': 9, 'cls_num_no': 11}
+9
+11
+100%|██████████| 5/5 [02:12<00:00, 26.57s/it]

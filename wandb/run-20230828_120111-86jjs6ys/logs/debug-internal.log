@@ -1,0 +1,188 @@
+2023-08-28 12:01:11,102 INFO    StreamThr :11280 [internal.py:wandb_internal():86] W&B internal server running at pid: 11280, started at: 2023-08-28 12:01:11.100520
+2023-08-28 12:01:11,105 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: status
+2023-08-28 12:01:11,109 INFO    WriterThread:11280 [datastore.py:open_for_write():85] open: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/run-86jjs6ys.wandb
+2023-08-28 12:01:11,112 DEBUG   SenderThread:11280 [sender.py:send():379] send: header
+2023-08-28 12:01:11,197 DEBUG   SenderThread:11280 [sender.py:send():379] send: run
+2023-08-28 12:01:11,597 INFO    SenderThread:11280 [dir_watcher.py:__init__():211] watching files in: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files
+2023-08-28 12:01:11,598 INFO    SenderThread:11280 [sender.py:_start_run_threads():1121] run started: 86jjs6ys with start time 1693216871.105211
+2023-08-28 12:01:11,598 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: summary_record
+2023-08-28 12:01:11,601 INFO    SenderThread:11280 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-28 12:01:11,605 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: check_version
+2023-08-28 12:01:11,606 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: check_version
+2023-08-28 12:01:11,677 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: run_start
+2023-08-28 12:01:11,683 DEBUG   HandlerThread:11280 [system_info.py:__init__():31] System info init
+2023-08-28 12:01:11,683 DEBUG   HandlerThread:11280 [system_info.py:__init__():46] System info init done
+2023-08-28 12:01:11,683 INFO    HandlerThread:11280 [system_monitor.py:start():181] Starting system monitor
+2023-08-28 12:01:11,683 INFO    SystemMonitor:11280 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-28 12:01:11,684 INFO    HandlerThread:11280 [system_monitor.py:probe():201] Collecting system info
+2023-08-28 12:01:11,685 INFO    SystemMonitor:11280 [interfaces.py:start():190] Started cpu monitoring
+2023-08-28 12:01:11,685 INFO    SystemMonitor:11280 [interfaces.py:start():190] Started disk monitoring
+2023-08-28 12:01:11,686 INFO    SystemMonitor:11280 [interfaces.py:start():190] Started gpu monitoring
+2023-08-28 12:01:11,687 INFO    SystemMonitor:11280 [interfaces.py:start():190] Started memory monitoring
+2023-08-28 12:01:11,689 INFO    SystemMonitor:11280 [interfaces.py:start():190] Started network monitoring
+2023-08-28 12:01:11,717 DEBUG   HandlerThread:11280 [system_info.py:probe():195] Probing system
+2023-08-28 12:01:11,725 DEBUG   HandlerThread:11280 [system_info.py:_probe_git():180] Probing git
+2023-08-28 12:01:11,745 DEBUG   HandlerThread:11280 [system_info.py:_probe_git():188] Probing git done
+2023-08-28 12:01:11,745 DEBUG   HandlerThread:11280 [system_info.py:probe():240] Probing system done
+2023-08-28 12:01:11,745 DEBUG   HandlerThread:11280 [system_monitor.py:probe():210] {'os': 'Linux-5.7.8-1.el7.elrepo.x86_64-x86_64-with-glibc2.17', 'python': '3.9.17', 'heartbeatAt': '2023-08-28T10:01:11.717508', 'startedAt': '2023-08-28T10:01:11.073936', 'docker': None, 'cuda': '10.2.89', 'args': ('--file_path', '/home/hzhu/project/EMNLP_BLA/datasets/BLA/original/finetune/finetune_random/rc/test.json', '--in_context_learning'), 'state': 'running', 'program': '/home/hzhu/project/EMNLP_BLA/BLIP/test_blip2_bla.py', 'codePath': 'test_blip2_bla.py', 'git': {'remote': 'https://github.com/s04240051/BLA_EVALUATION.git', 'commit': '1a542c70735bbb4244e433f6408bf76114543631'}, 'email': None, 'root': '/home/hzhu/project/EMNLP_BLA/BLIP', 'host': 'ilps-cn102', 'username': 'hzhu', 'executable': '/home/hzhu/miniconda3/envs/openflamingo/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1690.04025, 'min': 1200.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 2848.661, 'min': 1200.0, 'max': 3200.0}, {'current': 2848.86, 'min': 1200.0, 'max': 3200.0}, {'current': 2848.865, 'min': 1200.0, 'max': 3200.0}, {'current': 2849.072, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.08, 'min': 1200.0, 'max': 3200.0}, {'current': 1695.101, 'min': 1200.0, 'max': 3200.0}, {'current': 1301.236, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.589, 'min': 1200.0, 'max': 3200.0}, {'current': 1810.84, 'min': 1200.0, 'max': 3200.0}, {'current': 1670.2, 'min': 1200.0, 'max': 3200.0}, {'current': 1500.403, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.249, 'min': 1200.0, 'max': 3200.0}, {'current': 1297.52, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.543, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.166, 'min': 1200.0, 'max': 3200.0}, {'current': 1199.867, 'min': 1200.0, 'max': 3200.0}, {'current': 2853.824, 'min': 1200.0, 'max': 3200.0}, {'current': 2853.735, 'min': 1200.0, 'max': 3200.0}, {'current': 2853.667, 'min': 1200.0, 'max': 3200.0}, {'current': 2682.081, 'min': 1200.0, 'max': 3200.0}, {'current': 1205.014, 'min': 1200.0, 'max': 3200.0}, {'current': 1545.49, 'min': 1200.0, 'max': 3200.0}, {'current': 1304.829, 'min': 1200.0, 'max': 3200.0}, {'current': 1202.661, 'min': 1200.0, 'max': 3200.0}, {'current': 1569.043, 'min': 1200.0, 'max': 3200.0}, {'current': 1427.182, 'min': 1200.0, 'max': 3200.0}, {'current': 1382.49, 'min': 1200.0, 'max': 3200.0}, {'current': 1207.191, 'min': 1200.0, 'max': 3200.0}, {'current': 1210.438, 'min': 1200.0, 'max': 3200.0}, {'current': 1200.629, 'min': 1200.0, 'max': 3200.0}, {'current': 1204.283, 'min': 1200.0, 'max': 3200.0}, {'current': 1202.62, 'min': 1200.0, 'max': 3200.0}], 'disk': {'total': 43.92385482788086, 'used': 24.62940216064453}, 'memory': {'total': 251.79969024658203}}
+2023-08-28 12:01:11,745 INFO    HandlerThread:11280 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-28 12:01:11,745 INFO    HandlerThread:11280 [system_monitor.py:probe():214] Publishing system info
+2023-08-28 12:01:11,745 DEBUG   HandlerThread:11280 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-28 12:01:11,748 DEBUG   HandlerThread:11280 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-28 12:01:11,749 DEBUG   HandlerThread:11280 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-28 12:01:12,602 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/conda-environment.yaml
+2023-08-28 12:01:12,603 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/wandb-summary.json
+2023-08-28 12:01:12,604 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/requirements.txt
+2023-08-28 12:01:17,229 DEBUG   HandlerThread:11280 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-28 12:01:17,233 INFO    HandlerThread:11280 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-28 12:01:17,242 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 12:01:17,243 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-28 12:01:17,244 DEBUG   SenderThread:11280 [sender.py:send():379] send: files
+2023-08-28 12:01:17,244 INFO    SenderThread:11280 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-28 12:01:17,255 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-28 12:01:17,255 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: stop_status
+2023-08-28 12:01:17,501 DEBUG   SenderThread:11280 [sender.py:send():379] send: telemetry
+2023-08-28 12:01:17,506 DEBUG   SenderThread:11280 [sender.py:send():379] send: exit
+2023-08-28 12:01:17,506 INFO    SenderThread:11280 [sender.py:send_exit():584] handling exit code: 1
+2023-08-28 12:01:17,506 INFO    SenderThread:11280 [sender.py:send_exit():586] handling runtime: 5
+2023-08-28 12:01:17,510 INFO    SenderThread:11280 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-28 12:01:17,511 INFO    SenderThread:11280 [sender.py:send_exit():592] send defer
+2023-08-28 12:01:17,511 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:17,511 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-28 12:01:17,512 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:17,512 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-08-28 12:01:17,512 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 1
+2023-08-28 12:01:17,512 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:17,512 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-28 12:01:17,513 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:17,513 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-08-28 12:01:17,513 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 2
+2023-08-28 12:01:17,513 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:17,513 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-28 12:01:17,513 INFO    HandlerThread:11280 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-28 12:01:17,514 DEBUG   SystemMonitor:11280 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-28 12:01:17,514 DEBUG   SystemMonitor:11280 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-28 12:01:17,515 INFO    HandlerThread:11280 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-28 12:01:17,515 DEBUG   SystemMonitor:11280 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-28 12:01:17,515 INFO    HandlerThread:11280 [interfaces.py:finish():202] Joined disk monitor
+2023-08-28 12:01:17,516 INFO    HandlerThread:11280 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-28 12:01:17,517 INFO    HandlerThread:11280 [interfaces.py:finish():202] Joined memory monitor
+2023-08-28 12:01:17,517 INFO    HandlerThread:11280 [interfaces.py:finish():202] Joined network monitor
+2023-08-28 12:01:17,518 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:17,518 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-08-28 12:01:17,518 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 3
+2023-08-28 12:01:17,518 DEBUG   SenderThread:11280 [sender.py:send():379] send: stats
+2023-08-28 12:01:17,518 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:17,519 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-28 12:01:17,519 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:17,520 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-08-28 12:01:17,520 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 4
+2023-08-28 12:01:17,520 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:17,520 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-28 12:01:17,520 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:17,520 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-08-28 12:01:17,521 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 5
+2023-08-28 12:01:17,521 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:17,521 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-28 12:01:17,521 DEBUG   SenderThread:11280 [sender.py:send():379] send: summary
+2023-08-28 12:01:17,524 INFO    SenderThread:11280 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-28 12:01:17,525 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:17,525 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-08-28 12:01:17,525 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 6
+2023-08-28 12:01:17,525 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:17,525 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-28 12:01:17,526 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:17,526 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-08-28 12:01:17,531 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: status_report
+2023-08-28 12:01:17,608 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/conda-environment.yaml
+2023-08-28 12:01:17,609 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/wandb-summary.json
+2023-08-28 12:01:17,609 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/wandb-metadata.json
+2023-08-28 12:01:17,609 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/output.log
+2023-08-28 12:01:17,753 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 7
+2023-08-28 12:01:17,753 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:17,753 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-28 12:01:17,754 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:17,754 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-08-28 12:01:17,834 INFO    wandb-upload_0:11280 [upload_job.py:push():131] Uploaded file /tmp/tmpltnj53ngwandb/gvvva1f0-wandb-metadata.json
+2023-08-28 12:01:18,270 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-28 12:01:18,609 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/config.yaml
+2023-08-28 12:01:19,611 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/output.log
+2023-08-28 12:01:21,516 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 8
+2023-08-28 12:01:21,517 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: poll_exit
+2023-08-28 12:01:21,517 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:21,517 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-28 12:01:21,518 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:21,518 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-08-28 12:01:21,518 INFO    SenderThread:11280 [job_builder.py:build():281] Attempting to build job artifact
+2023-08-28 12:01:21,519 INFO    SenderThread:11280 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-08-28 12:01:21,523 INFO    SenderThread:11280 [job_builder.py:build():374] adding wandb-job metadata file
+2023-08-28 12:01:21,536 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 9
+2023-08-28 12:01:21,537 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:21,537 DEBUG   SenderThread:11280 [sender.py:send():379] send: artifact
+2023-08-28 12:01:21,537 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-28 12:01:21,614 INFO    Thread-12 :11280 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/output.log
+2023-08-28 12:01:22,261 INFO    SenderThread:11280 [sender.py:send_artifact():1475] sent artifact job-https___github.com_s04240051_BLA_EVALUATION.git_test_blip2_bla.py - {'id': 'QXJ0aWZhY3Q6NTUzMTE4Njg5', 'digest': 'ee1b65f909f4165475f43fae3dc056ca', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_s04240051_BLA_EVALUATION.git_test_blip2_bla.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_s04240051_BLA_EVALUATION.git_test_blip2_bla.py', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjkzMjMxNTU2', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTUzMjI4MDky', 'versionIndex': 2}}, 'version': 'v0'}
+2023-08-28 12:01:22,261 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:22,262 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-08-28 12:01:22,262 INFO    SenderThread:11280 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-08-28 12:01:22,615 INFO    SenderThread:11280 [dir_watcher.py:finish():388] scan: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files
+2023-08-28 12:01:22,616 INFO    SenderThread:11280 [dir_watcher.py:finish():402] scan save: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/config.yaml config.yaml
+2023-08-28 12:01:22,616 INFO    SenderThread:11280 [dir_watcher.py:finish():402] scan save: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/requirements.txt requirements.txt
+2023-08-28 12:01:22,617 INFO    SenderThread:11280 [dir_watcher.py:finish():402] scan save: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/output.log output.log
+2023-08-28 12:01:22,627 INFO    SenderThread:11280 [dir_watcher.py:finish():402] scan save: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/wandb-metadata.json wandb-metadata.json
+2023-08-28 12:01:22,628 INFO    SenderThread:11280 [dir_watcher.py:finish():402] scan save: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/wandb-summary.json wandb-summary.json
+2023-08-28 12:01:22,628 INFO    SenderThread:11280 [dir_watcher.py:finish():402] scan save: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/conda-environment.yaml conda-environment.yaml
+2023-08-28 12:01:22,639 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 10
+2023-08-28 12:01:22,640 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:22,640 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-28 12:01:22,645 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:22,646 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-08-28 12:01:22,646 INFO    SenderThread:11280 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-28 12:01:22,954 INFO    wandb-upload_1:11280 [upload_job.py:push():131] Uploaded file /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/requirements.txt
+2023-08-28 12:01:22,997 INFO    wandb-upload_0:11280 [upload_job.py:push():131] Uploaded file /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/config.yaml
+2023-08-28 12:01:23,058 INFO    wandb-upload_4:11280 [upload_job.py:push():131] Uploaded file /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/conda-environment.yaml
+2023-08-28 12:01:23,074 INFO    wandb-upload_2:11280 [upload_job.py:push():131] Uploaded file /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/output.log
+2023-08-28 12:01:23,080 INFO    wandb-upload_3:11280 [upload_job.py:push():131] Uploaded file /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/files/wandb-summary.json
+2023-08-28 12:01:23,271 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-28 12:01:23,281 INFO    Thread-11 :11280 [sender.py:transition_state():612] send defer: 11
+2023-08-28 12:01:23,282 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:23,282 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-28 12:01:23,282 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:23,282 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-08-28 12:01:23,283 INFO    SenderThread:11280 [file_pusher.py:join():164] waiting for file pusher
+2023-08-28 12:01:23,283 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 12
+2023-08-28 12:01:23,283 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:23,283 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-28 12:01:23,284 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:23,284 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-08-28 12:01:23,284 INFO    SenderThread:11280 [file_stream.py:finish():593] file stream finish called
+2023-08-28 12:01:23,553 INFO    SenderThread:11280 [file_stream.py:finish():597] file stream finish is done
+2023-08-28 12:01:23,553 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 13
+2023-08-28 12:01:23,553 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:23,553 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-28 12:01:23,554 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:23,554 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-08-28 12:01:23,554 INFO    SenderThread:11280 [sender.py:transition_state():612] send defer: 14
+2023-08-28 12:01:23,555 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: defer
+2023-08-28 12:01:23,555 DEBUG   SenderThread:11280 [sender.py:send():379] send: final
+2023-08-28 12:01:23,555 INFO    HandlerThread:11280 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-28 12:01:23,555 DEBUG   SenderThread:11280 [sender.py:send():379] send: footer
+2023-08-28 12:01:23,556 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: defer
+2023-08-28 12:01:23,556 INFO    SenderThread:11280 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-08-28 12:01:23,557 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-28 12:01:23,557 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: poll_exit
+2023-08-28 12:01:23,558 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: server_info
+2023-08-28 12:01:23,558 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-28 12:01:23,559 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: server_info
+2023-08-28 12:01:23,559 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-28 12:01:23,564 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: job_info
+2023-08-28 12:01:23,678 DEBUG   SenderThread:11280 [sender.py:send_request():406] send_request: job_info
+2023-08-28 12:01:23,678 INFO    MainThread:11280 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-08-28 12:01:23,679 INFO    MainThread:11280 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-08-28 12:01:23,679 INFO    MainThread:11280 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-08-28 12:01:23,679 DEBUG   HandlerThread:11280 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-28 12:01:23,680 INFO    HandlerThread:11280 [handler.py:finish():857] shutting down handler
+2023-08-28 12:01:24,565 INFO    WriterThread:11280 [datastore.py:close():294] close: /home/hzhu/project/EMNLP_BLA/BLIP/wandb/run-20230828_120111-86jjs6ys/run-86jjs6ys.wandb
+2023-08-28 12:01:24,678 INFO    SenderThread:11280 [sender.py:finish():1552] shutting down sender
+2023-08-28 12:01:24,679 INFO    SenderThread:11280 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-28 12:01:24,679 INFO    SenderThread:11280 [file_pusher.py:join():164] waiting for file pusher

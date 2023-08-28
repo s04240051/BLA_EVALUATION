@@ -1,0 +1,202 @@
+{
+    "os": "Linux-5.7.8-1.el7.elrepo.x86_64-x86_64-with-glibc2.17",
+    "python": "3.9.17",
+    "heartbeatAt": "2023-08-28T06:50:01.983709",
+    "startedAt": "2023-08-28T06:50:01.334767",
+    "docker": null,
+    "cuda": "10.2.89",
+    "args": [
+        "--file_path",
+        "/home/hzhu/project/EMNLP_BLA/datasets/BLA/original/relative_clause_captions_gruen_strict.json",
+        "--dataset_type",
+        "whole"
+    ],
+    "state": "running",
+    "program": "/home/hzhu/project/EMNLP_BLA/BLIP/test_blip2_bla.py",
+    "codePath": "test_blip2_bla.py",
+    "git": {
+        "remote": "https://github.com/s04240051/BLA_EVALUATION.git",
+        "commit": "1a542c70735bbb4244e433f6408bf76114543631"
+    },
+    "email": null,
+    "root": "/home/hzhu/project/EMNLP_BLA/BLIP",
+    "host": "ilps-cn101.ivi-ilps.local",
+    "username": "hzhu",
+    "executable": "/home/hzhu/miniconda3/envs/openflamingo/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1933.1683437500003,
+        "min": 1200.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3164.975,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2723.689,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2858.604,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1801.291,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2585.481,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2711.226,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2712.952,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2711.996,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1321.824,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1827.777,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1201.415,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1200.179,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1199.781,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1200.646,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1200.579,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1200.171,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3163.382,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2439.304,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2670.148,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1803.982,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2178.153,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 3014.328,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2450.601,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2569.786,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1310.141,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1427.206,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1201.832,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1201.862,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1201.976,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1202.954,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1201.845,
+            "min": 1200.0,
+            "max": 3200.0
+        },
+        {
+            "current": 1201.301,
+            "min": 1200.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "total": 43.92385482788086,
+        "used": 24.983821868896484
+    },
+    "memory": {
+        "total": 251.79969024658203
+    }
+}

@@ -1,0 +1,11 @@
+
+close file...
+  0%|          | 0/200 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/hzhu/project/EMNLP_BLA/BLIP/test_blip2_bla.py", line 371, in <module>
+    evaluate_vqa(args)
+  File "/home/hzhu/project/EMNLP_BLA/BLIP/test_blip2_bla.py", line 131, in evaluate_vqa
+    vision_x = eval_model.image_encoder([img_path])
+  File "/home/hzhu/project/EMNLP_BLA/BLIP/model_container.py", line 44, in image_encoder
+    vision_x = vision_x.unsqueeze(1).unsqueeze(0)
+AttributeError: 'list' object has no attribute 'unsqueeze'
